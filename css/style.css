@@ -6,7 +6,7 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- body {
+ .body {
     background-color: rgb(76, 176, 59);
     color: #8c8c8c;
     font-family: "Abril Fatface", cursive;
@@ -21,6 +21,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  @media (max-width: 900px){
+    .cuadro{
+      width: 300px;
+    }
+  }
   
   .cuadro2 { background-color: white; }
   
@@ -29,6 +35,17 @@
     background-position: center;
     background-size: cover;
     min-height: 425px;
+    border-bottom: solid 10px black;
+    border-top: dotted 10px purple;  
+  }
+
+  @media (max-width: 900px){
+
+    #avila{
+      min-height: 225px;
+    }
+
+ 
   }
   
   #titulo {
